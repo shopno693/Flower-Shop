@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-red {
+  color: #E55473;
+}
+.line-height {
+  line-height:20px;
+}
+
+/* This is header section  */
+
+.header-container {
+  height: 450px;
+  background-color: #ffe5eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rose-photo {
+  height: 400px;
+  width: 340px;
+  margin-top: 54px;
+  margin-left: -150px;
+  
+}
+.header-text {
+  margin-left: 40px;
+}
+.header-title{
+  font-size: 45px;
+  color: rgb(49, 48, 48);
+}
+.header-description {
+  font-size: 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #8c8888;
+  line-height:15px;
+}
+.header-btn {
+  color: white;
+  background-color: #E55473;
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+}
