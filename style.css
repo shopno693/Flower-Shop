@@ -48,3 +48,79 @@
   font-size: 12px;
   border-radius: 5px;
 }
+
+
+/* <!-- This is Our Featured Flowers Section  --> */
+.Our-feature-photos {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 350px;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 70%;
+}
+.Our-feature-text {
+ text-align: center;
+}
+.Our-feature-title {
+  font-size: 25px;
+  margin-top: 75px;
+}
+.Our-feature-description {
+  font-size: 9px;
+  margin-top: 15px;
+  color: #8c8888;
+  line-height:15px;
+}
+
+
+#Flower1 {
+  height: 200px;
+  width: 150px ;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+.Flowerbackground1 {
+  background-color:pink;
+  height: 250px;
+  width: 220px;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+}#Flower2 {
+  height: 200px;
+  width: 200px ;
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+.Flowerbackground2 {
+  background-color:#d4fdffd1;
+  height: 250px;
+  width: 220px;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+}
+#Flower3 {
+  height: 200px;
+  width: 150px ;
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+.Flowerbackground3 {
+  background-color:#c7d4ba;
+  height: 250px;
+  width: 220px;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+}
+.flower-name{
+  position: relative;
+  top: 70px;
+  left: 48px;
+  text-decoration: underline;
+  font-size: 16px;
+  color: rgb(69, 63, 63);
+}
